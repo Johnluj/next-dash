@@ -4,6 +4,7 @@ import Link from 'next/link';
 import styles from '@/app/ui/home.module.css';
 import { Lusitana } from 'next/font/google';
 import Image from 'next/image';
+import { fetchRevenue } from '@/app/lib/data';
 
 
 export default function Page() {
